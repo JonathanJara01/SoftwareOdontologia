@@ -5,6 +5,9 @@ import './App.css'
 
 //// Componentes
 import Home from './Components/ComponentsReact/Home';
+import FormConsenInfo from './Components/ComponentsReact/FormConsenInfo';
+import Footer from './Components/ComponentsReact/Footer';
+
 
 function App() {
 
@@ -13,7 +16,12 @@ function App() {
     <>
     <Routes>
         <Route path="/" element={<Home/>} ></Route>
+        <Route path="/ConsenInfor" element={<FormConsenInfo/>} ></Route>
     </Routes>
+    {/*FOOTER */}
+        <div>
+          <Footer/>
+      </div>
     </>
   )
 }
