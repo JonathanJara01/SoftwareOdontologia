@@ -4,9 +4,11 @@ import './App.css'
 
 
 //// Componentes
-import Home from './Components/ComponentsReact/Home';
+import Home from './Components/ComponentsReact/PerfilOdontologico/Home';
 import FormConsenInfo from './Components/ComponentsReact/FormConsenInfo';
 import Footer from './Components/ComponentsReact/Footer';
+import Landing from './Components/ComponentsReact/Landing';
+import HomeAdministrativo from './Components/ComponentsReact/PerfilAdminitrativo/HomeAdministrativo';
 
 
 function App() {
@@ -15,8 +17,10 @@ function App() {
   return (
     <>
     <Routes>
-        <Route path="/" element={<Home/>} ></Route>
+        <Route path="/" element={<Landing/>} ></Route>
         <Route path="/ConsenInfor" element={<FormConsenInfo/>} ></Route>
+        <Route path="/Home" element={<Home/>} ></Route>
+        <Route path="/HomeAdministrativo" element={<HomeAdministrativo/>} ></Route>
     </Routes>
     {/*FOOTER */}
         <div>

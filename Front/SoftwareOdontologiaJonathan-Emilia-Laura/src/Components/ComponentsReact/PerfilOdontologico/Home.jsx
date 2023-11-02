@@ -1,9 +1,9 @@
 //Componentes
-import Navbar from './Navbar'
+import Navbar from '../Navbar'
 
 // imagenes
-import LogoOdon from '../Images/LogoOdontoSoft.png';
-import Footer from './Footer';
+import LogoOdon from '../../Images/LogoOdontoSoft.png';
+import Footer from '../Footer';
 
 const Home = () => {
   return (
